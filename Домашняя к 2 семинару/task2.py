@@ -16,7 +16,7 @@ if discriminant < 0:
     print("Действительных корней нет")
 elif discriminant == 0:
     x = sum_numbers // 2
-    y = x
+    y = x 
 else:
     x = int(sum_numbers - discriminant**0.5) //2
     y = sum_numbers - x
